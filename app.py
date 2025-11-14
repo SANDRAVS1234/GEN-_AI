@@ -3,7 +3,7 @@ import replicate
 import os
 
 # Set your API key
-os.environ["REPLICATE_API_TOKEN"] = "YOUR_API_KEY_HERE"
+os.environ["REPLICATE_API_TOKEN"] = "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"
 
 st.set_page_config(page_title="Interior Design Generator", layout="centered")
 
@@ -37,3 +37,4 @@ if generate:
                 file_name="interior_design.png",
                 mime="image/png"
             )
+
