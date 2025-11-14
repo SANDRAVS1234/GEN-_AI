@@ -1,15 +1,15 @@
-# PyTorch (GPU, CUDA 11.8)
+# PyTorch CUDA 11.8 (works on T4 GPU)
 torch==2.5.1+cu118
-torchvision==0.20.1+cu118
+torchvision==0.21.0+cu118
 --extra-index-url https://download.pytorch.org/whl/cu118
 
-# Diffusers stack
+# Diffusers & Transformers
 diffusers==0.25.0
 transformers==4.36.2
 accelerate==0.25.0
 safetensors
 
-# Computer vision
+# Vision + utilities
 opencv-python
 Pillow
 numpy
@@ -17,5 +17,5 @@ numpy
 # Web UI
 gradio==4.12.0
 
-# Optional (if it fails REMOVE it)
-xformers==0.0.22.post7
+# Optional: remove if error occurs
+# xformers==0.0.22.post7
